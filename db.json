@@ -1,28 +1,8 @@
 {
-  "places": [
+  "posts": [
     {
       "id": 1,
-      "title": "Malang Night Paradise"
-    },
-    {
-      "id": 2,
-      "title": "Alun Alun Malang"
-    },
-    {
-      "id": 3,
-      "title": "Hawai Waterpark"
-    },
-    {
-      "id": 4,
-      "title": "Museum Angkut"
-    },
-    {
-      "id": 5,
-      "title": "Batu Night Spectacular"
-    },
-    {
-      "id": 6,
-      "title": "Jawa Timur Park 2"
+      "title": "hello"
     }
   ],
   "profile": {
