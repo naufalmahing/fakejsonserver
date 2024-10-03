@@ -7,5 +7,224 @@
   ],
   "profile": {
     "name": "naufalmahing"
-  }
+  },
+  "couriers_api": {
+    "success": true,
+    "object": "courier_pricing",
+    "message": "Success to retrieve courier pricing",
+    "code": 20001007,
+    "origin": {
+        "location_id": null,
+        "latitude": -6.3031123,
+        "longitude": 106.7794934999,
+        "postal_code": 12440,
+        "country_name": "Indonesia",
+        "country_code": "ID",
+        "administrative_division_level_1_name": "DKI Jakarta",
+        "administrative_division_level_1_type": "province",
+        "administrative_division_level_2_name": "Jakarta Selatan",
+        "administrative_division_level_2_type": "city",
+        "administrative_division_level_3_name": "Cilandak",
+        "administrative_division_level_3_type": "district",
+        "administrative_division_level_4_name": "Lebak Bulus",
+        "administrative_division_level_4_type": "subdistrict",
+        "address": null
+    },
+    "stops": [],
+    "destination": {
+        "location_id": null,
+        "latitude": -6.2441792,
+        "longitude": 106.783529,
+        "postal_code": 12240,
+        "country_name": "Indonesia",
+        "country_code": "ID",
+        "administrative_division_level_1_name": "DKI Jakarta",
+        "administrative_division_level_1_type": "province",
+        "administrative_division_level_2_name": "Jakarta Selatan",
+        "administrative_division_level_2_type": "city",
+        "administrative_division_level_3_name": "Kebayoran Lama",
+        "administrative_division_level_3_type": "district",
+        "administrative_division_level_4_name": "Kebayoran Lama Utara",
+        "administrative_division_level_4_type": "subdistrict",
+        "address": null
+    },
+    "pricing": [
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": false,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "grab",
+            "courier_name": "GRAB",
+            "courier_code": "grab",
+            "courier_service_name": "Instant",
+            "courier_service_code": "instant",
+            "description": "Instant service for on demand needs.",
+            "duration": "1 - 3 Hours",
+            "shipment_duration_range": "1 - 3",
+            "shipment_duration_unit": "hours",
+            "service_type": "same_day",
+            "shipping_type": "parcel",
+            "price": 25000,
+            "type": "instant"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": false,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "grab",
+            "courier_name": "GRAB",
+            "courier_code": "grab",
+            "courier_service_name": "Same Day",
+            "courier_service_code": "same_day",
+            "description": "Same day service. Available from 08:00 to 15:00.",
+            "duration": "4 - 8 Hours",
+            "shipment_duration_range": "4 - 8",
+            "shipment_duration_unit": "hours",
+            "service_type": "same_day",
+            "shipping_type": "parcel",
+            "price": 19000,
+            "type": "same_day"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": false,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "grab",
+            "courier_name": "GRAB",
+            "courier_code": "grab",
+            "courier_service_name": "Instant Car",
+            "courier_service_code": "instant_car",
+            "description": "Instant Grab Car Express",
+            "duration": "1 - 3 Hours",
+            "shipment_duration_range": "1 - 3",
+            "shipment_duration_unit": "hours",
+            "service_type": "same_day",
+            "shipping_type": "parcel",
+            "price": 62000,
+            "type": "instant_car"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": true,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "jne",
+            "courier_name": "JNE",
+            "courier_code": "jne",
+            "courier_service_name": "Reguler",
+            "courier_service_code": "reg",
+            "description": "Layanan reguler",
+            "duration": "1 - 2 days",
+            "shipment_duration_range": "1 - 2",
+            "shipment_duration_unit": "days",
+            "service_type": "standard",
+            "shipping_type": "parcel",
+            "price": 30000,
+            "type": "reg"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": false,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "jne",
+            "courier_name": "JNE",
+            "courier_code": "jne",
+            "courier_service_name": "Yakin Esok Sampai (YES)",
+            "courier_service_code": "yes",
+            "description": "Yakin esok sampai",
+            "duration": "1 - 1 days",
+            "shipment_duration_range": "1 - 1",
+            "shipment_duration_unit": "days",
+            "service_type": "overnight",
+            "shipping_type": "parcel",
+            "price": 54000,
+            "type": "yes"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": true,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "tiki",
+            "courier_name": "Tiki",
+            "courier_code": "tiki",
+            "courier_service_name": "Same Day Service",
+            "courier_service_code": "sds",
+            "description": "same day service",
+            "duration": "0 days",
+            "shipment_duration_range": "0",
+            "shipment_duration_unit": "days",
+            "service_type": "same_day",
+            "shipping_type": "parcel",
+            "price": 60000,
+            "type": "sds"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": true,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "tiki",
+            "courier_name": "Tiki",
+            "courier_code": "tiki",
+            "courier_service_name": "One Night Service",
+            "courier_service_code": "ons",
+            "description": "One night service",
+            "duration": "1 days",
+            "shipment_duration_range": "1",
+            "shipment_duration_unit": "days",
+            "service_type": "overnight",
+            "shipping_type": "parcel",
+            "price": 54000,
+            "type": "ons"
+        },
+        {
+            "available_collection_method": [
+                "pickup"
+            ],
+            "available_for_cash_on_delivery": true,
+            "available_for_proof_of_delivery": false,
+            "available_for_instant_waybill_id": true,
+            "available_for_insurance": true,
+            "company": "tiki",
+            "courier_name": "Tiki",
+            "courier_code": "tiki",
+            "courier_service_name": "Reguler",
+            "courier_service_code": "reg",
+            "description": "Layanan reguler",
+            "duration": "2 - 3 days",
+            "shipment_duration_range": "2 - 3",
+            "shipment_duration_unit": "days",
+            "service_type": "standard",
+            "shipping_type": "parcel",
+            "price": 27000,
+            "type": "reg"
+        }
+    ]
+}
 }
